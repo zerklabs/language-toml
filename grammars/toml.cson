@@ -33,6 +33,19 @@
       'name' : 'constant.character.escape.toml'
     ]
   }
+   {
+    'begin': '\'\'\''
+    'beginCaptures':
+      '0': 'name': 'string.begin.toml'
+    'end': '\'\'\''
+    'endCaptures':
+      '0': 'name': 'string.end.toml'
+    'name': 'string.toml'
+    'patterns': [
+      'match': '\\\\[nt0r"\\\\]'
+      'name' : 'constant.character.escape.toml'
+    ]
+  }
   {
     'match': '#.*$'
     'name': 'comment.toml'
