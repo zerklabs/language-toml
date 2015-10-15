@@ -1,8 +1,8 @@
 {
-  "name": "language-toml",
+  "name": "z-language-toml-cabrel",
   "version": "0.16.0",
   "description": "Syntax highlighting for Tom's Obvious, Minimal Language (TOML).",
-  "repository": "https://github.com/atom/language-toml",
+  "repository": "https://github.com/zerklabs/z-language-toml-cabrel",
   "license": "MIT",
   "engines": {
     "atom": "*"
